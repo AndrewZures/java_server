@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" name="Default" comment="" />
+    <list default="true" id="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/MockSocket.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/MySocketTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/ClientSocket.java" afterPath="$PROJECT_DIR$/test/socket_test/ClientSocket.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/DirectoryResponderTest.java" afterPath="$PROJECT_DIR$/test/responder_tests/DirectoryResponderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/FileResponderTest.java" afterPath="$PROJECT_DIR$/test/responder_tests/FileResponderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/FormResponderTest.java" afterPath="$PROJECT_DIR$/test/responder_tests/FormResponderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/MockServerSocket.java" afterPath="$PROJECT_DIR$/test/server_test/MockServerSocket.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/MockSocket.java" afterPath="$PROJECT_DIR$/test/socket_test/MockSocket.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/MyServerSocketTest.java" afterPath="$PROJECT_DIR$/test/server_test/MyServerSocketTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/MySocketTest.java" afterPath="$PROJECT_DIR$/test/socket_test/MySocketTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/RequestBuilderTest.java" afterPath="$PROJECT_DIR$/test/request_test/RequestBuilderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/ResponseBuilderTest.java" afterPath="$PROJECT_DIR$/test/response_test/ResponseBuilderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/ServerTest.java" afterPath="$PROJECT_DIR$/test/server_test/ServerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/Timer_ResponseBuilderTest.java" afterPath="$PROJECT_DIR$/test/responder_tests/Timer_ResponseBuilderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file.txt" afterPath="$PROJECT_DIR$/file.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_java_server.iml" afterPath="$PROJECT_DIR$/new_java_server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="new_java_server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/../java_server/.idea/workspace.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376947332751" ignored="false" />
+    <file path="$PROJECT_DIR$/../java_server/.idea/workspace.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376948243080" ignored="false" />
     <file path="/DirectoryResponder.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376944916414" ignored="false" />
-    <file path="/fragment.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376947221005" ignored="false" />
+    <file path="/fragment.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376948353817" ignored="false" />
     <file path="/RequestBuilder.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945024449" ignored="false" />
     <file path="/ArgumentParser.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376944891718" ignored="false" />
     <file path="/ClientSocket.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945081866" ignored="false" />
@@ -14,7 +32,6 @@
     <file path="$PROJECT_DIR$/build/classes/form.html" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945793161" ignored="false" />
     <file path="$PROJECT_DIR$/build/classes/welcome.html" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945793161" ignored="false" />
     <file path="/Logger.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945932268" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376947332751" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +40,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/new_java_server$All_in_new_java_server.coverage" NAME="All in new_java_server Coverage Results" MODIFIED="1376945579527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/new_java_server$All_in_new_java_server.coverage" NAME="All in new_java_server Coverage Results" MODIFIED="1376947637936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -78,19 +95,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RequestBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/request/RequestBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="14" selection-start="2556" selection-end="2556" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Logger.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.75376886">
+            <state line="8" column="57" selection-start="328" selection-end="328" vertical-scroll-proportion="0.2303263">
               <folding />
             </state>
           </provider>
@@ -192,39 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server_and_sockets" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,8 +418,8 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6712538" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37358186" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37358186" sideWeight="0.8593272" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14067279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -540,7 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DirectoryResponderTest.java">
+    <entry file="file://$PROJECT_DIR$/test/responder_tests/DirectoryResponderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="26" selection-start="295" selection-end="295" vertical-scroll-proportion="0.4379562">
           <folding>
@@ -549,7 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/FormResponderTest.java">
+    <entry file="file://$PROJECT_DIR$/test/responder_tests/FormResponderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
@@ -611,7 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ClientSocket.java">
+    <entry file="file://$PROJECT_DIR$/test/socket_test/ClientSocket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.14690721">
           <folding />
@@ -634,14 +610,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/request/RequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="14" selection-start="2556" selection-end="2556" vertical-scroll-proportion="0.0">
+        <state line="72" column="14" selection-start="2556" selection-end="2556" vertical-scroll-proportion="2.7135677">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.75376886">
+        <state line="8" column="57" selection-start="328" selection-end="328" vertical-scroll-proportion="0.2303263">
           <folding />
         </state>
       </provider>

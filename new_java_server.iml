@@ -13,6 +13,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/request" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/response/responders" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/file_reader" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/responder_tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/request_test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/response_test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/server_test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/socket_test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
