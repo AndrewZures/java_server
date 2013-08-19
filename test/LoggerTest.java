@@ -35,7 +35,7 @@ public class LoggerTest {
         request.method = "GET";
         request.relativePath = "/path";
         request.httpType = "HTTP/1.1";
-        logger.log(request);
+        logger.logRequest(request);
         assertThat(outContent.toString(), JUnitMatchers.containsString("GET /path"));
     }
 
@@ -44,7 +44,7 @@ public class LoggerTest {
         Request request = new Request();
         request.method = "GET";
         request.relativePath = "/path";
-        logger.log(request);
+        logger.logRequest(request);
         assertThat(outContent.toString(), JUnitMatchers.containsString("Invalid Request Received"));
     }
 

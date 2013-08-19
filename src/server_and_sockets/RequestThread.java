@@ -29,7 +29,7 @@ public class RequestThread extends Thread {
 
     public void run() {
         Request request = requestBuilder.buildRequest();
-        logger.log(request);
+        logger.logRequest(request);
         Response response = responseBuilder.buildResponse(request);
         sender.sendResponse(response, request);
         socket.close();
