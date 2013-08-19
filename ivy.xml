@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+    <info organisation="com.andrewzures" module="TTT" />
+    <dependencies>
+        <dependency org="junit" name="junit" rev="4.11" />
+    </dependencies>
+</ivy-module>
