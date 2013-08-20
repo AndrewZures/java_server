@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/new_java_server_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/response/responders/DirectoryResponder.java" afterPath="$PROJECT_DIR$/src/response/responders/DirectoryResponder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/responder_tests/DirectoryResponderTest.java" afterPath="$PROJECT_DIR$/test/responder_tests/DirectoryResponderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Logger.java" afterPath="$PROJECT_DIR$/src/Logger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server_and_sockets/Server.java" afterPath="$PROJECT_DIR$/src/server_and_sockets/Server.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file.txt" afterPath="$PROJECT_DIR$/file.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" name="Default" comment="" />
     <ignored path="new_java_server.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../java_server/.idea/workspace.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1377009386063" ignored="false" />
@@ -38,7 +28,10 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/new_java_server$All_in_new_java_server.coverage" NAME="All in new_java_server Coverage Results" MODIFIED="1377011930736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/new_java_server$DirectoryResponderTest_testBuildResponse3.coverage" NAME="DirectoryResponderTest.testBuildResponse3 Coverage Results" MODIFIED="1377012189948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/new_java_server$DirectoryResponderTest_testBuildResponse3.coverage" NAME="DirectoryResponderTest.testBuildResponse3 Coverage Results" MODIFIED="1377012363077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -93,10 +86,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server_and_sockets/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="36" selection-start="572" selection-end="572" vertical-scroll-proportion="0.44622424">
+            <state line="13" column="3" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectoryResponder.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/response/responders/DirectoryResponder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="47" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.58352405">
               <folding />
             </state>
           </provider>
@@ -238,28 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="response" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="response" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,7 +514,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -711,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/response/responders/DirectoryResponder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="0.6864989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/response/ResponseBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.65217394">
@@ -734,7 +707,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server_and_sockets/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="572" selection-end="572" vertical-scroll-proportion="0.44622424">
+        <state line="13" column="3" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/response/responders/DirectoryResponder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="47" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.58352405">
           <folding />
         </state>
       </provider>
