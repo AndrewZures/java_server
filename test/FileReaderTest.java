@@ -10,7 +10,7 @@ public class FileReaderTest {
 
     @Test
     public void buildResponseForInvalidPath(){
-        response = reader.readFile("testFiles/false_path");
+        response = reader.readFile("sample_test_files/false_path");
         assertEquals(null, response);
     }
 
@@ -24,7 +24,7 @@ public class FileReaderTest {
 
     @Test
     public void BuildResponseForValidPath2(){
-        response = reader.readFile("testFiles/test_picture.jpg");
+        response = reader.readFile("sample_test_files/test_picture.jpg");
         assertNotNull(response.inputStream);
         assertEquals("200", response.statusCode);
         assertEquals("OK", response.statusText);
@@ -44,13 +44,13 @@ public class FileReaderTest {
 
     @Test
     public void fileIsDirectory3(){
-        boolean result = reader.fileIsDirectory("testFiles/test_picture.jpg");
+        boolean result = reader.fileIsDirectory("sample_test_files/test_picture.jpg");
         assertEquals(false, result);
     }
 
     @Test
     public void fileExists1(){
-        boolean result = reader.fileExists("testFiles/test_picture.jpg");
+        boolean result = reader.fileExists("sample_test_files/test_picture.jpg");
         assertEquals(true, result);
     }
 

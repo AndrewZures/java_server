@@ -11,6 +11,18 @@ public class Logger {
         } catch(NullPointerException npe){}
     }
 
+    public void logServerStartSucess(int port){
+        System.out.println("Server listening on port " + port);
+    }
+
+    public void logServerStartFailed(){
+        System.out.println("Server start error, aborting");
+    }
+
+    public void logSocketCouldNotConnect(){
+        System.out.println("could not connect to socket");
+    }
+
 
     public boolean validRequest(Request request){
         return request != null

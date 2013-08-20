@@ -15,7 +15,8 @@ public class ServerTest {
 
     public ServerTest(){
         mockServerSocket = new MockServerSocket();
-        server = new Server(7170, "./../", mockServerSocket);
+        Logger logger = new Logger();
+        server = new Server(7170, "./../", mockServerSocket, logger);
         System.setOut(new PrintStream(outContent));
     }
 

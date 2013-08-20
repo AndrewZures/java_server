@@ -9,44 +9,41 @@ public class Server {
     private List<Thread> threadList = Collections.synchronizedList(new ArrayList<Thread>());
     private String startingPath;
     private FileReaderInterface fileReader;
+    private Logger logger;
     
     
-    public Server(int port, String startingPath, ServerSocketInterface serverSocket){
+    public Server(int port, String startingPath, ServerSocketInterface serverSocket, Logger logger){
         this.port = port;
         this.startingPath = startingPath;
         this.fileReader = new FileReader();
         this.serverSocket = serverSocket;
+        this.logger = logger;
     }
 
     public void go() {
         SocketInterface socket;
-        boolean status = serverSocket.runServer(port);
-        try{
-            if(status){
-                System.out.println("Server listening on port " + port);
-                while(true){
-                    try{
-                        socket = serverSocket.accept();
-                        Thread newThread = new RequestThread(socket, this, startingPath, fileReader);
-                        threadList.add(newThread);
-                        newThread.start();
-                    }
-                    catch(IOException ioe){
-                        try{
-                            System.out.println("could not connect to socket");
-                        } catch(NullPointerException npe){}
-                        break;
-                    }
+        boolean serverRunning = serverSocket.runServer(port);
+        if(!serverRunning){
+            logger.logServerStartFailed();
+        } else {
+            logger.logServerStartSucess(port);
+            while(true){
+                try{
+                    socket = serverSocket.accept();
+                    Thread newThread = new RequestThread(socket, this, startingPath, fileReader);
+                    threadList.add(newThread);
+                    newThread.start();
                 }
-            } else {
-                    System.out.println("Server start error, aborting");
+                catch(IOException ioe){
+                    logger.logSocketCouldNotConnect();
+                    break;
+                }
             }
-        } catch(NullPointerException npe){}
+        }
     }
 
     public int getThreadCount(){
         return threadList.size();
     }
-
 
 }

@@ -78,13 +78,11 @@ public class ResponseBuilderTest {
         assertThat(result, JUnitMatchers.containsString("name"));
     }
 
-
-
     @Test
     public void testBuildResponse4() throws IOException {
         Request request = buildSimpleRequest();
         request.relativePath = ".";
-        request.fullPath = "./testFiles";
+        request.fullPath = "./sample_test_files";
         request.method = "GET";
         Response response = builder.buildResponse(request);
         assertEquals("200", response.statusCode);
@@ -98,8 +96,8 @@ public class ResponseBuilderTest {
     @Test
     public void testBuildResponse5() throws IOException {
         Request request = buildSimpleRequest();
-        request.relativePath = "/testFiles/test_picture.jpg";
-        request.fullPath = "./testFiles/test_picture.jpg";
+        request.relativePath = "/sample_test_files/test_picture.jpg";
+        request.fullPath = "./sample_test_files/test_picture.jpg";
         request.method = "GET";
         Response response = builder.buildResponse(request);
         assertEquals("200", response.statusCode);

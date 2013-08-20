@@ -10,14 +10,14 @@ public class DirectoryResponderTest {
 
     @Test
     public void testBuildParentLink(){
-        String path = "./TestFiles/";
+        String path = "./sample_test_files/";
         String responseString = builder.buildParentLink(path);
         assertThat(responseString, JUnitMatchers.containsString("."));
     }
 
     @Test
     public void testBuildChildrenLinks1(){
-        String path = "./TestFiles/";
+        String path = "./sample_test_files/";
         File testFile = new File(path);
         String responseString = builder.buildChildrenLinks(testFile);
         assertThat(responseString, JUnitMatchers.containsString("test_picture"));
@@ -68,7 +68,7 @@ public class DirectoryResponderTest {
     public void testBuildResponse2(){
         Request request = new Request();
         request.method = "GET";
-        request.fullPath = "/TestFiles/";
+        request.fullPath = "/sample_test_files/";
         Response response = builder.respond(request);
         assertNotNull(response);
     }
@@ -77,7 +77,7 @@ public class DirectoryResponderTest {
     public void testBuildResponse3(){
         Request request = new Request();
         request.method = "GET";
-        request.fullPath = "/TestFiles/";
+        request.fullPath = "/sample_test_files/";
         Response response = builder.respond(request);
         assertNotNull(response.inputStream);
 

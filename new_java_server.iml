@@ -5,8 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/testFiles" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/testFiles/test_folder" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/sample_test_files" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/sample_test_files/test_folder" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/server_and_sockets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/response" isTestSource="false" />

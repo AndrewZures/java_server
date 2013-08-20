@@ -26,7 +26,8 @@ public class RequestThreadTest {
         SocketInterface socket = new MockSocket();
         String startingPath = ".";
         ServerSocketInterface mockServerSocket = new MockServerSocket();
-        Server server = new Server(8189, startingPath, mockServerSocket);
+        Logger logger = new Logger();
+        Server server = new Server(8189, startingPath, mockServerSocket, logger);
         FileReaderInterface reader = new MockFileReader();
 
         RequestThread handler = new RequestThread(socket, server, startingPath, reader);
@@ -39,7 +40,8 @@ public class RequestThreadTest {
         socket.closeInputStream();
         String startingPath = ".";
         ServerSocketInterface mockServerSocket = new MockServerSocket();
-        Server server = new Server(8189, startingPath, mockServerSocket);
+        Logger logger = new Logger();
+        Server server = new Server(8189, startingPath, mockServerSocket, logger);
         FileReaderInterface reader = new MockFileReader();
 
         RequestThread handler = new RequestThread(socket, server, startingPath, reader);
