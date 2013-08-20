@@ -6,20 +6,21 @@ public class DirectoryResponder implements ResponderInterface {
     
     public Response respond(Request request) {
         Response response = new Response();
-        String fullPath = sanitizePath(request.fullPath);
 
-        File directory = new File(fullPath);
+        File directory = new File(request.fullPath);
         if(directory.exists()){
             String responseBody = "";
             responseBody += "<html><body>";
-            responseBody += buildParentLink(fullPath);
+            responseBody += buildParentLink(request.fullPath);
             responseBody += buildChildrenLinks(directory);
             responseBody += "</body></html>";
             byte[] responseArray = responseBody.getBytes();
             response.inputStream = new ByteArrayInputStream(responseArray);
             response = populateResponseHeaderFields(response);
         }
-        else return null;
+        else{
+            return null;
+        }
         return response;
     }
 

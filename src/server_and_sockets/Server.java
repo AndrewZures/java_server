@@ -26,7 +26,7 @@ public class Server {
         if(!serverRunning){
             logger.logServerStartFailed();
         } else {
-            logger.logServerStartSucess(port);
+            logger.logServerStartSuccess(port);
             while(true){
                 try{
                     socket = serverSocket.accept();

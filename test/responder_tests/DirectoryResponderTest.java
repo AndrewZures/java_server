@@ -68,7 +68,7 @@ public class DirectoryResponderTest {
     public void testBuildResponse2(){
         Request request = new Request();
         request.method = "GET";
-        request.fullPath = "/sample_test_files/";
+        request.fullPath = "sample_test_files/";
         Response response = builder.respond(request);
         assertNotNull(response);
     }
@@ -77,7 +77,7 @@ public class DirectoryResponderTest {
     public void testBuildResponse3(){
         Request request = new Request();
         request.method = "GET";
-        request.fullPath = "/sample_test_files/";
+        request.fullPath = "sample_test_files/";
         Response response = builder.respond(request);
         assertNotNull(response.inputStream);
 

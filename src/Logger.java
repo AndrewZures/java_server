@@ -1,17 +1,15 @@
 public class Logger {
 
     public void logRequest(Request request){
-        try{
-            if(validRequest(request)){
-                System.out.println("Request received: "+request.method+" "+request.relativePath+" "+request.httpType);
-            }
-            else{
-                System.out.println("Invalid Request Received");
-            }
-        } catch(NullPointerException npe){}
+        if(validRequest(request)){
+            System.out.println("Request received: "+request.method+" "+request.relativePath+" "+request.httpType);
+        }
+        else{
+            System.out.println("Invalid Request Received");
+        }
     }
 
-    public void logServerStartSucess(int port){
+    public void logServerStartSuccess(int port){
         System.out.println("Server listening on port " + port);
     }
 
