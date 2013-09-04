@@ -49,6 +49,12 @@ public class DirectoryResponderTest {
         assertThat(result, JUnitMatchers.containsString("test_path"));
     }
 
+    @Test
+    public void testBuildDirectoryLink(){
+        String result = builder.buildDirectoryLink("test_path");
+        assertEquals("<a href=\"test_path/\">test_path</a>", result);
+    }
+
    @Test
     public void testSanitizeString2(){
        String result = builder.sanitizePath("helloWorld");

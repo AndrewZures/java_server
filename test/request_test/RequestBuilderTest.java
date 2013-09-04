@@ -15,11 +15,13 @@ public class RequestBuilderTest {
     RequestBuilder requestBuilder;
     InputReader reader;
     SocketInterface socket;
+    PostParser parser;
 
     public RequestBuilderTest() throws Exception {
         socket = new MockSocket();
         reader = new InputReader(socket);
-        requestBuilder = new RequestBuilder(".", reader, new FileReader());
+        parser = new PostParser();
+        requestBuilder = new RequestBuilder(".", reader, new FileReader(), parser);
     }
 
     @Before

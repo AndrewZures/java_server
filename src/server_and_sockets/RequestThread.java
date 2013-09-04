@@ -12,7 +12,7 @@ public class RequestThread extends Thread {
     String startingPath;
     Logger logger;
 
-    public RequestThread(SocketInterface socket, Server server, String startingPath, FileReaderInterface fileReader) {
+    public RequestThread(SocketInterface socket, Server server, String startingPath, FileReaderInterface fileReader, PostParser parser) {
         this.socket = socket;
         this.server = server;
         this.inputReader = new InputReader(socket);
@@ -22,7 +22,7 @@ public class RequestThread extends Thread {
         this.responseBuilder = new ResponseBuilder(fileReader);
         this.startingPath = startingPath;
         try{
-            this.requestBuilder = new RequestBuilder(startingPath, inputReader, fileReader);
+            this.requestBuilder = new RequestBuilder(startingPath, inputReader, fileReader, parser);
             this.sender = new OutputBuilder(socket);
         } catch(IOException ioe){}
     }

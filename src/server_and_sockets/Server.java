@@ -22,6 +22,7 @@ public class Server {
 
     public void go() {
         SocketInterface socket;
+        PostParser parser = new PostParser();
         boolean serverRunning = serverSocket.runServer(port);
         if(!serverRunning){
             logger.logServerStartFailed();
@@ -30,7 +31,7 @@ public class Server {
             while(true){
                 try{
                     socket = serverSocket.accept();
-                    Thread newThread = new RequestThread(socket, this, startingPath, fileReader);
+                    Thread newThread = new RequestThread(socket, this, startingPath, fileReader, parser);
                     threadList.add(newThread);
                     newThread.start();
                 }

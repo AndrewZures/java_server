@@ -27,10 +27,11 @@ public class RequestThreadTest {
         String startingPath = ".";
         ServerSocketInterface mockServerSocket = new MockServerSocket();
         Logger logger = new Logger();
+        PostParser parser = new PostParser();
         Server server = new Server(8189, startingPath, mockServerSocket, logger);
         FileReaderInterface reader = new MockFileReader();
 
-        RequestThread handler = new RequestThread(socket, server, startingPath, reader);
+        RequestThread handler = new RequestThread(socket, server, startingPath, reader, parser);
         assertTrue(handler instanceof RequestThread);
     }
 
@@ -39,12 +40,13 @@ public class RequestThreadTest {
         SocketInterface socket = new MockSocket();
         socket.closeInputStream();
         String startingPath = ".";
+        PostParser parser = new PostParser();
         ServerSocketInterface mockServerSocket = new MockServerSocket();
         Logger logger = new Logger();
         Server server = new Server(8189, startingPath, mockServerSocket, logger);
         FileReaderInterface reader = new MockFileReader();
 
-        RequestThread handler = new RequestThread(socket, server, startingPath, reader);
+        RequestThread handler = new RequestThread(socket, server, startingPath, reader, parser);
         handler.run();
         assertEquals(true, socket.isClosed());
     }
