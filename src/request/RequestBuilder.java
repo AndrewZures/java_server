@@ -3,16 +3,18 @@ import java.io.IOException;
 public class RequestBuilder {
     InputReader inputReader;
     FileReaderInterface fileReader;
+    PostParser parser;
     private String startingPath;
     private final static int METHOD = 0;
     private final static int PATH = 1;
     private final static int HTTPTYPE = 2;
     private final static int MINHEADERLENGTH = 2;
 
-    public RequestBuilder(String startingPath, InputReader inputReader, FileReaderInterface fileReader) throws IOException {
+    public RequestBuilder(String startingPath, InputReader inputReader, FileReaderInterface fileReader, PostParser parser) throws IOException {
         this.inputReader = inputReader;
         this.fileReader = fileReader;
         this.startingPath = startingPath;
+        this.parser = parser;
     }
 
     public Request buildRequest(){
