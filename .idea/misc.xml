@@ -47,6 +47,13 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="6745F3DE991A5EB589E1EB79CAFD368F" />
+  <component name="LeiningenProjectsManager">
+    <option name="projectFiles">
+      <list>
+        <option value="file://$PROJECT_DIR$/project.clj" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
