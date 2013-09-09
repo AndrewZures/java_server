@@ -9,6 +9,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
+import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertThat;
 
 public class MainTest {
@@ -35,7 +36,7 @@ public class MainTest {
             Thread.sleep(2000);
             thread1.interrupt();
 
-            assertThat(socket.getResult(), JUnitMatchers.containsString("Welcome To The Server"));
+            assertTrue(socket.getResult().contains("test_picture.jpg"));
         } catch (Exception e) {
         }
     }

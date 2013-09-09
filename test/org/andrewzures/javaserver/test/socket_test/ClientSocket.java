@@ -13,24 +13,28 @@ public class ClientSocket {
     InputStream inputStream;
     String result = null;
 
-    public ClientSocket() throws IOException {
-        socket = new MySocket(new Socket(InetAddress.getLocalHost(), 8191));
-        outputStream = socket.getOutputStream();
-        inputStream = socket.getInputStream();
+    public ClientSocket() {
+        try {
+            socket = new MySocket(new Socket(InetAddress.getLocalHost(), 8191));
+            outputStream = socket.getOutputStream();
+            inputStream = socket.getInputStream();
+        } catch (IOException e) {
+        }
     }
 
-    public void run() throws IOException {
-        ByteArrayInputStream stream = new ByteArrayInputStream("GET /hello HTTP/1.1\r\n\r\n".getBytes());
+    public void run() {
+        ByteArrayInputStream stream = new ByteArrayInputStream("GET /sample_test_files HTTP/1.1\r\n\r\n".getBytes());
         this.sendBytes(stream);
         result = this.readInputStream();
+        System.out.println("run error");
     }
 
-    public boolean sendBytes(InputStream stream){
+    public boolean sendBytes(InputStream stream) {
         int bytesRead;
         byte[] buffer = new byte[4096];
-        if(stream != null){
+        if (stream != null) {
             try {
-                while((bytesRead = stream.read(buffer)) != -1){
+                while ((bytesRead = stream.read(buffer)) != -1) {
                     outputStream.write(buffer, 0, bytesRead);
                 }
                 return true;
@@ -41,21 +45,24 @@ public class ClientSocket {
         return true;
     }
 
-    public String readInputStream() throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(
-                socket.getInputStream()));
+    public String readInputStream() {
+        try {
+            BufferedReader in = new BufferedReader(new InputStreamReader(
+                    socket.getInputStream()));
+            String allInput = "";
+            String userInput;
 
-        String allInput = "";
-        String userInput;
-
-        while ((userInput = in.readLine()) != null) {
-            allInput += userInput;
+            while ((userInput = in.readLine()) != null) {
+                allInput += userInput;
+            }
+            System.out.println("allinput = " + allInput);
+            return allInput;
+        } catch (IOException e) {
+            return "";
         }
-        return allInput;
-
     }
 
-    public String getResult(){
+    public String getResult() {
         return result;
     }
 }

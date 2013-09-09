@@ -100,7 +100,7 @@ public class ResponseBuilderTest {
         assertEquals("200", response.statusCode);
         assertEquals("OK", response.statusText);
         String result = convertStreamToString(response.inputStream);
-        assertThat(result, JUnitMatchers.containsString("test_picture.jpg"));
+        assertTrue(result.contains("test_picture.jpg"));
     }
 
 
