@@ -20,7 +20,7 @@ public class ClientSocket {
     }
 
     public void run() throws IOException {
-        ByteArrayInputStream stream = new ByteArrayInputStream("GET /hello HTTP/1.1".getBytes());
+        ByteArrayInputStream stream = new ByteArrayInputStream("GET /hello HTTP/1.1\r\n\r\n".getBytes());
         this.sendBytes(stream);
         result = this.readInputStream();
     }

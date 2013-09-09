@@ -7,7 +7,7 @@ public class file404Responder implements ResponderInterface {
 
     public Response respond(Request request){
         Response response = new Response();
-        response.inputStream = this.getClass().getResourceAsStream("404.html");
+        response.inputStream = this.getClass().getResourceAsStream("org/andrewzures/javaserver/resources/404.html");
         response = populateHeaderInformation(response);
         return response;
     }

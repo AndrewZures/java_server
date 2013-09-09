@@ -2,7 +2,10 @@ package org.andrewzures.javaserver.response;
 
 import org.andrewzures.javaserver.file_reader.FileReaderInterface;
 import org.andrewzures.javaserver.request.Request;
-import org.andrewzures.javaserver.responders.*;
+import org.andrewzures.javaserver.responders.DirectoryResponder;
+import org.andrewzures.javaserver.responders.FileResponder;
+import org.andrewzures.javaserver.responders.ResponderInterface;
+import org.andrewzures.javaserver.responders.file404Responder;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,7 +18,6 @@ public class ResponseBuilder implements ResponseBuilderInterface {
 
     public ResponseBuilder(FileReaderInterface fileReader){
         this.fileReader = fileReader;
-//        this.specialPaths = this.populateSpecialPaths();
         this.specialPaths = new HashMap<String, ResponderInterface>();
         this.supportedMethods = this.populateSupportedMethodsArray();
         this.fileTypeMap = this.populateFileTypeMap();
@@ -64,13 +66,17 @@ public class ResponseBuilder implements ResponseBuilderInterface {
     @Override
     public boolean addRoute(String method, String path, ResponderInterface responder) {
         String routeID = method.toLowerCase()+"_"+path;
-        System.out.println("route id: "+ routeID);
         if(!specialPaths.containsKey(routeID)){
             specialPaths.put(routeID, responder);
             return true;
         } else {
             return false;
         }
+    }
+
+    @Override
+    public ArrayList<String> getRoutes() {
+        return new ArrayList<String>(specialPaths.keySet());
     }
 
     private boolean requestIsValid(Request request) {

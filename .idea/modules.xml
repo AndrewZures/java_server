@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Clean_Java_Server.iml" filepath="$PROJECT_DIR$/Clean_Java_Server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java_server.iml" filepath="$PROJECT_DIR$/java_server.iml" />
     </modules>
   </component>
 </project>

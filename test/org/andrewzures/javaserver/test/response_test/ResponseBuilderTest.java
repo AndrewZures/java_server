@@ -15,6 +15,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
@@ -62,18 +63,19 @@ public class ResponseBuilderTest {
         assertEquals("200", response.statusCode);
         assertEquals("OK", response.statusText);
         String result = convertStreamToString(response.inputStream);
-        assertThat(result, JUnitMatchers.containsString("Welcome"));
+        assertTrue(result.contains("Welcome"));
     }
 
     @Test
     public void testBuildResponse2() throws IOException {
         Request request = buildSimpleRequest();
         request.relativePath = "/time";
+        request.fullPath = "./time";
         Response response = builder.buildResponse(request);
         assertEquals("200", response.statusCode);
         assertEquals("OK", response.statusText);
         String result = convertStreamToString(response.inputStream);
-        assertThat(result, JUnitMatchers.containsString("start time"));
+        assertTrue(result.contains("start time"));
     }
 
     @Test
@@ -84,13 +86,14 @@ public class ResponseBuilderTest {
         assertEquals("200", response.statusCode);
         assertEquals("OK", response.statusText);
         String result = convertStreamToString(response.inputStream);
-        assertThat(result, JUnitMatchers.containsString("name"));
+        assertTrue(result.contains("name"));
     }
 
     @Test
     public void testBuildResponse4() throws IOException {
         Request request = buildSimpleRequest();
         request.relativePath = ".";
+        request.fullPath = "./sample_test_files";
         request.fullPath = "./sample_test_files";
         request.method = "GET";
         Response response = builder.buildResponse(request);
@@ -113,6 +116,25 @@ public class ResponseBuilderTest {
         assertEquals("image/jpeg", response.contentType);
     }
 
+    @Test
+    public void testgetRoutes() {
+        ArrayList<String> routes = builder.getRoutes();
+        assertEquals(4, routes.size());
+        assertEquals("get_/time", routes.get(1));
+    }
+
+    @Test
+    public void testAddRoutes() {
+        boolean result = builder.addRoute("get", "/test", new DefaultInternalResponder("stuff"));
+        assertEquals(true, result);
+    }
+
+    @Test
+    public void testRouteAddFail() {
+        boolean result = builder.addRoute("get", "/hello", new DefaultInternalResponder("stuff"));
+        assertEquals(false, result);
+    }
+
 
     public Request buildSimpleRequest() {
         Request request = new Request();
@@ -122,15 +144,19 @@ public class ResponseBuilderTest {
         return request;
     }
 
-    public String convertStreamToString(InputStream stream) throws IOException {
+    public String convertStreamToString(InputStream stream) {
         int bufferSize = 4000;
         Reader reader = new BufferedReader(new InputStreamReader(stream));
         StringBuffer content = new StringBuffer();
         char[] buffer = new char[bufferSize];
         int n;
 
-        while ((n = reader.read(buffer)) != -1) {
-            content.append(buffer, 0, n);
+        try {
+            while ((n = reader.read(buffer)) != -1) {
+                content.append(buffer, 0, n);
+            }
+        } catch (IOException e) {
+
         }
 
         return content.toString();

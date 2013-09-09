@@ -5,7 +5,8 @@ import org.andrewzures.javaserver.PostParser;
 import org.andrewzures.javaserver.file_reader.FileReader;
 import org.andrewzures.javaserver.file_reader.FileReaderInterface;
 import org.andrewzures.javaserver.responders.ResponderInterface;
-import org.andrewzures.javaserver.response.*;
+import org.andrewzures.javaserver.response.ResponseBuilder;
+import org.andrewzures.javaserver.response.ResponseBuilderInterface;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -60,6 +61,10 @@ public class Server {
 
     public int getThreadCount(){
         return threadList.size();
+    }
+
+    public ArrayList<String> getRoutes(){
+        return builder.getRoutes();
     }
 
 }
