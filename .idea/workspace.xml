@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java" afterPath="$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/andrewzures/javaserver/PostParser.java" afterPath="$PROJECT_DIR$/src/org/andrewzures/javaserver/PostParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/PostParserTest.java" afterPath="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/PostParserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Clean_Java_Server_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Clean_Java_Server_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="new_java_server.iws" />
@@ -16,7 +13,7 @@
     <file path="/RequestBuilder.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379478209254" ignored="false" />
     <file path="/ArgumentParser.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376944891718" ignored="false" />
     <file path="/ClientSocket.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1378742893250" ignored="false" />
-    <file path="/Dummy.txt" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379482761138" ignored="false" />
+    <file path="/Dummy.txt" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379529515905" ignored="false" />
     <file path="$PROJECT_DIR$/build/classes/form.html" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945793161" ignored="false" />
     <file path="$PROJECT_DIR$/build/classes/welcome.html" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945793161" ignored="false" />
     <file path="/Logger.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1377010017529" ignored="false" />
@@ -89,7 +86,7 @@
     <file path="/RequestTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379479775550" ignored="false" />
     <file path="/FileResponder.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379476679533" ignored="false" />
     <file path="$PROJECT_DIR$/META-INF/MANIFEST.MF" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1378745480553" ignored="false" />
-    <file path="$PROJECT_DIR$/../clojure_server/cloj_server/.idea/workspace.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379482994722" ignored="false" />
+    <file path="$PROJECT_DIR$/../clojure_server/cloj_server/.idea/workspace.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379484185388" ignored="false" />
     <file path="/Build.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1378913996438" ignored="false" />
     <file path="/file404Responder.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379468494219" ignored="false" />
     <file path="/FormResponderTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379481297465" ignored="false" />
@@ -103,6 +100,9 @@
     <file path="/Request.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379477640263" ignored="false" />
     <file path="/MockSocket.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379479531994" ignored="false" />
     <file path="/TimerResponderTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379481532781" ignored="false" />
+    <file path="$PROJECT_DIR$/../clojure_server/cloj_server/src/cloj_server/test_utility_methods.clj" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379483580131" ignored="false" />
+    <file path="/test_utility_methods.clj" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379483579611" ignored="false" />
+    <file path="$PROJECT_DIR$/../clojure_server/cloj_server/src/cloj_server/core.clj" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379483671819" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +147,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FileResponderTest.java" line="1" class="FileResponderTest.java" package="">
         <option name="ENABLED" value="true" />
@@ -201,6 +200,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -209,115 +209,98 @@
     <favorites_list name="new_java_server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="FormResponder.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="1" selection-start="1931" selection-end="2219" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PostParser.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/PostParser.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="33" selection-start="482" selection-end="482" vertical-scroll-proportion="0.25345623">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FormResponderTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="123" column="13" selection-start="4469" selection-end="4469" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Request.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/request/Request.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="58" column="7" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Response.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/response/Response.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="101" column="11" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="File404ResponderTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/File404ResponderTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="8" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="java_server.iml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/java_server.iml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="106" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ArgumentParserTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/ArgumentParserTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="45" column="8" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PostParserTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/PostParserTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="29" selection-start="1153" selection-end="1154" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TimerResponderTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/TimerResponderTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="PostParserTest.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/PostParserTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="20" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.5833333">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="PostParserTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/PostParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="8" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="41" selection-start="668" selection-end="668" vertical-scroll-proportion="0.2990654">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/PostParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="33" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormResponderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="13" selection-start="4469" selection-end="4469" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/request/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="7" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Response.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/response/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="11" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File404ResponderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/File404ResponderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="8" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java_server.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_server.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="106" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgumentParserTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/ArgumentParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="8" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimerResponderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/TimerResponderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -355,10 +338,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1940" />
-    <option name="y" value="2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="22" />
+    <option name="width" value="1024" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -393,7 +375,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -435,14 +416,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Clean_Java_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -777,8 +777,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1940" y="2" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1024" height="742" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -792,9 +792,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21611527" sideWeight="0.79270834" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -802,12 +800,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21024546" sideWeight="0.79270834" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40368852" sideWeight="0.6916933" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20663811" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21611527" sideWeight="0.7869379" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -878,42 +878,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/server_and_sockets/RequestThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="25" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/response/ResponseBuilderInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="63" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="63" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/request/RequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="41" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="41" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/socket_test/MockSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="39" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/response_test/ResponseBuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="116" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="116" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="117" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+        <state line="55" column="1" selection-start="1931" selection-end="2219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -939,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/TimerResponderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/File404ResponderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="8" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
@@ -967,23 +950,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java">
+    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/TimerResponderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="1" selection-start="1931" selection-end="2219" vertical-scroll-proportion="0.0">
+        <state line="6" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/PostParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="482" selection-end="482" vertical-scroll-proportion="0.25345623">
+        <state line="15" column="33" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/PostParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="20" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.5833333">
+        <state line="42" column="8" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="41" selection-start="668" selection-end="668" vertical-scroll-proportion="0.2990654">
           <folding />
         </state>
       </provider>
@@ -993,7 +983,14 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+            </show-content>
+          </artifact-editor>
           <last-edited>Clean_Java_Server:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
