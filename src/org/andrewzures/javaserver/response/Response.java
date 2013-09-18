@@ -1,7 +1,5 @@
 package org.andrewzures.javaserver.response;
 
-import org.andrewzures.javaserver.file_reader.FileReaderInterface;
-
 import java.io.InputStream;
 
 public class Response {
@@ -86,13 +84,6 @@ public class Response {
         this.inputStream = inputStream;
     }
 
-    public FileReaderInterface getFileReader() {
-        return fileReader;
-    }
-
-    public void setFileReader(FileReaderInterface fileReader) {
-        this.fileReader = fileReader;
-    }
 
     public String method;
     public String path;
@@ -104,7 +95,7 @@ public class Response {
     public String headerBreak = "\r\n\r\n";
     public String body = null;
     public InputStream inputStream = null;
-    public FileReaderInterface fileReader = null;
+
 
 
 }

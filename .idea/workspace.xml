@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/responders/FileResponder.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/responders/FileResponder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/responder_tests/FileResponderTest.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/responder_tests/FileResponderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/responders/FormResponder.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/responders/FormResponder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/Main.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/socket_test/MockSocket.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/socket_test/MockSocket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/PostParser.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/PostParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/PostParserTest.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/PostParserTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/request/Request.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/request/Request.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/request/RequestBuilder.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/request/RequestBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/request_test/RequestBuilderTest.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/request_test/RequestBuilderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/request_test/RequestTest.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/request_test/RequestTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/server_and_sockets/RequestThread.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/server_and_sockets/RequestThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/RequestThreadTest.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/RequestThreadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/response/ResponseBuilder.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/response/ResponseBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/response/ResponseBuilderInterface.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/response/ResponseBuilderInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/response_test/ResponseBuilderTest.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/response_test/ResponseBuilderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/response_test/ResponseTest.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/test/response_test/ResponseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/server_and_sockets/Server.class" afterPath="$PROJECT_DIR$/build/classes/org/andrewzures/javaserver/server_and_sockets/Server.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/jar/java_server.jar" afterPath="$PROJECT_DIR$/build/jar/java_server.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_server.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Clean_Java_Server.iml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/file404ResponderTest.java" afterPath="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/File404ResponderTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java" afterPath="$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java" afterPath="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/andrewzures/javaserver/Main.java" afterPath="$PROJECT_DIR$/src/org/andrewzures/javaserver/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/andrewzures/javaserver/response/Response.java" afterPath="$PROJECT_DIR$/src/org/andrewzures/javaserver/response/Response.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/response_test/ResponseBuilderTest.java" afterPath="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/response_test/ResponseBuilderTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file.txt" afterPath="$PROJECT_DIR$/file.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="new_java_server.iws" />
@@ -36,7 +20,7 @@
     <file path="/RequestBuilder.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379478209254" ignored="false" />
     <file path="/ArgumentParser.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376944891718" ignored="false" />
     <file path="/ClientSocket.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1378742893250" ignored="false" />
-    <file path="/Dummy.txt" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379468388006" ignored="false" />
+    <file path="/Dummy.txt" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379481883326" ignored="false" />
     <file path="$PROJECT_DIR$/build/classes/form.html" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945793161" ignored="false" />
     <file path="$PROJECT_DIR$/build/classes/welcome.html" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1376945793161" ignored="false" />
     <file path="/Logger.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1377010017529" ignored="false" />
@@ -112,7 +96,7 @@
     <file path="$PROJECT_DIR$/../clojure_server/cloj_server/.idea/workspace.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379469474534" ignored="false" />
     <file path="/Build.xml" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1378913996438" ignored="false" />
     <file path="/file404Responder.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379468494219" ignored="false" />
-    <file path="/FormResponderTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379479620056" ignored="false" />
+    <file path="/FormResponderTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379481297465" ignored="false" />
     <file path="/file404ResponderTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379471516324" ignored="false" />
     <file path="/File404ResponderTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379471497825" ignored="false" />
     <file path="/FileReader.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379475231762" ignored="false" />
@@ -122,6 +106,7 @@
     <file path="/FileResponderTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379477201032" ignored="false" />
     <file path="/Request.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379477640263" ignored="false" />
     <file path="/MockSocket.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379479531994" ignored="false" />
+    <file path="/TimerResponderTest.java" changelist="58fa26b2-ae3c-45e3-88e7-c098d9594ebd" time="1379481532781" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +123,7 @@
     <SUITE FILE_PATH="coverage/Clean_Java_Server$ResponseTest.coverage" NAME="ResponseTest Coverage Results" MODIFIED="1378738478418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.andrewzures.javaserver.response.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Clean_Java_Server$All_in_new_java_server.coverage" NAME="All in new_java_server Coverage Results" MODIFIED="1379480277122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Clean_Java_Server$All_in_new_java_server.coverage" NAME="All in new_java_server Coverage Results" MODIFIED="1379481847152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Clean_Java_Server$DirectoryResponderTest_testBuildDirectoryLink.coverage" NAME="DirectoryResponderTest.testBuildDirectoryLink Coverage Results" MODIFIED="1378305733672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/new_java_server$All_in_new_java_server.coverage" NAME="All in new_java_server Coverage Results" MODIFIED="1377011930736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Clean_Java_Server$org_andrewzures_javaserver_in_Clean_Java_Server.coverage" NAME="org.andrewzures.javaserver in Clean_Java_Server Coverage Results" MODIFIED="1379470302125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -167,6 +152,23 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FileResponderTest.java" line="1" class="FileResponderTest.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -203,23 +205,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FileResponderTest.java" line="1" class="FileResponderTest.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -229,63 +214,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MockSocket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/socket_test/MockSocket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="39" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="117" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1346#1362#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormResponder.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FormResponder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="61" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.42957747">
+            <state line="102" column="9" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestThread.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/server_and_sockets/RequestThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseBuilderInterface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/response/ResponseBuilderInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="63" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/request/RequestBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="41" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -299,21 +241,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseBuilderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/response_test/ResponseBuilderTest.java">
+      <file leaf-file-name="FormResponderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="116" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="123" column="13" selection-start="4469" selection-end="4469" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormResponderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java">
+      <file leaf-file-name="Request.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/request/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="92" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+            <state line="58" column="7" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Response.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/response/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="11" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File404ResponderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/File404ResponderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="8" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java_server.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_server.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="106" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgumentParserTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/ArgumentParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="7" selection-start="371" selection-end="371" vertical-scroll-proportion="0.1320132">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimerResponderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/TimerResponderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -337,9 +322,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FileResponder.java" />
-        <option value="$PROJECT_DIR$/src/org/andrewzures/javaserver/InputReader.java" />
-        <option value="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/InputReaderTest.java" />
         <option value="$PROJECT_DIR$/src/org/andrewzures/javaserver/request/RequestBuilder.java" />
         <option value="$PROJECT_DIR$/src/org/andrewzures/javaserver/PostParser.java" />
         <option value="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/request_test/RequestBuilderTest.java" />
@@ -351,8 +333,11 @@
         <option value="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/request_test/RequestTest.java" />
         <option value="$PROJECT_DIR$/src/org/andrewzures/javaserver/Main.java" />
         <option value="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/response_test/ResponseBuilderTest.java" />
-        <option value="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java" />
         <option value="$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java" />
+        <option value="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java" />
+        <option value="$PROJECT_DIR$/src/org/andrewzures/javaserver/response/Response.java" />
+        <option value="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/TimerResponderTest.java" />
+        <option value="$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/File404ResponderTest.java" />
       </list>
     </option>
   </component>
@@ -394,7 +379,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -418,220 +402,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socket_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="response_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server_and_sockets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="response" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Clean_Java_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -721,62 +494,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="FormResponderTest.testGetFormBody" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.andrewzures.javaserver.test.responder_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Clean_Java_Server" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.andrewzures.javaserver.test.responder_tests" />
-      <option name="MAIN_CLASS_NAME" value="org.andrewzures.javaserver.test.responder_tests.FormResponderTest" />
-      <option name="METHOD_NAME" value="testGetFormBody" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PostParserTest.testBadSocketInputStream" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.andrewzures.javaserver.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Clean_Java_Server" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.andrewzures.javaserver.test" />
-      <option name="MAIN_CLASS_NAME" value="org.andrewzures.javaserver.test.PostParserTest" />
-      <option name="METHOD_NAME" value="testBadSocketInputStream" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="FormResponderTest.testBadSocketInputStream" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -805,19 +522,75 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RequestTest.testSocketGetterSetter" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="FormResponderTest.testRespond" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.andrewzures.javaserver.test.request_test.*" />
+          <option name="PATTERN" value="org.andrewzures.javaserver.test.responder_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Clean_Java_Server" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.andrewzures.javaserver.test.request_test" />
-      <option name="MAIN_CLASS_NAME" value="org.andrewzures.javaserver.test.request_test.RequestTest" />
-      <option name="METHOD_NAME" value="testSocketGetterSetter" />
+      <option name="PACKAGE_NAME" value="org.andrewzures.javaserver.test.responder_tests" />
+      <option name="MAIN_CLASS_NAME" value="org.andrewzures.javaserver.test.responder_tests.FormResponderTest" />
+      <option name="METHOD_NAME" value="testRespond" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FormResponderTest.testGetFormBody" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.andrewzures.javaserver.test.responder_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Clean_Java_Server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.andrewzures.javaserver.test.responder_tests" />
+      <option name="MAIN_CLASS_NAME" value="org.andrewzures.javaserver.test.responder_tests.FormResponderTest" />
+      <option name="METHOD_NAME" value="testGetFormBody" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="File404ResponderTest.responds" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.andrewzures.javaserver.test.responder_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Clean_Java_Server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.andrewzures.javaserver.test.responder_tests" />
+      <option name="MAIN_CLASS_NAME" value="org.andrewzures.javaserver.test.responder_tests.File404ResponderTest" />
+      <option name="METHOD_NAME" value="responds" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -926,18 +699,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in new_java_server" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testGetFormBody" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PostParserTest.testBadSocketInputStream" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testBadSocketInputStream" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RequestTest.testSocketGetterSetter" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testBadSocketInputStream" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testRespond" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testGetFormBody" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.File404ResponderTest.responds" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in new_java_server" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RequestTest.testSocketGetterSetter" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.File404ResponderTest.responds" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testBadSocketInputStream" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PostParserTest.testBadSocketInputStream" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testGetFormBody" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testGetFormBody" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FormResponderTest.testRespond" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -973,36 +746,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21611527" sideWeight="0.79270834" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21024546" sideWeight="0.79270834" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21047008" sideWeight="0.79270834" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20729166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21611527" sideWeight="0.79270834" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1071,56 +844,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/response/ResponseBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.98214287">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FileResponder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="1162" selection-end="1162" vertical-scroll-proportion="-17.4">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FileResponderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="318" selection-end="318" vertical-scroll-proportion="-1.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/server_and_sockets/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="94" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/request_test/RequestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.8358434">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/request/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="7" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.6216617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/PostParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="29" selection-start="1057" selection-end="1058" vertical-scroll-proportion="0.5208333">
@@ -1131,9 +854,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/server_and_sockets/RequestThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="25" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,9 +868,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/request/RequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="41" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,16 +881,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/response_test/ResponseBuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="116" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="92" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+        <state line="23" column="116" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1179,10 +889,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="117" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1346#1362#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,7 +902,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/responders/FormResponder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="61" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.42957747">
+        <state line="102" column="9" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/FormResponderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="13" selection-start="4469" selection-end="4469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/request/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="7" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/andrewzures/javaserver/response/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="11" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/TimerResponderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/responder_tests/File404ResponderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_server.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="106" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/andrewzures/javaserver/test/ArgumentParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="371" selection-end="371" vertical-scroll-proportion="0.1320132">
           <folding />
         </state>
       </provider>
@@ -1255,12 +1011,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Clean_Java_Server</last-edited>
+          <last-edited>java_server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

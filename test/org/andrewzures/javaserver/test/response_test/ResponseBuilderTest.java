@@ -1,7 +1,6 @@
 package org.andrewzures.javaserver.test.response_test;
 
 import org.andrewzures.javaserver.Main;
-import org.andrewzures.javaserver.PostParser;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.responders.*;
 import org.andrewzures.javaserver.response.Response;

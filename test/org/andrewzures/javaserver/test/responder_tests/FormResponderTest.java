@@ -1,6 +1,5 @@
 package org.andrewzures.javaserver.test.responder_tests;
 
-import org.andrewzures.javaserver.PostParser;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.responders.FormResponder;
 import org.andrewzures.javaserver.response.Response;
@@ -97,7 +96,9 @@ public class FormResponderTest {
     public void testGetFormBody(){
         Request request = new Request();
         SocketInterface socket = new MockSocket();
-        socket.setInputStream("helloworld");
+        String testContent = "helloworld";
+        socket.setInputStream(testContent);
+        request.contentLength = testContent.length();
         request.socket = socket;
         String result = builder.getFormBody(request);
         assertEquals("helloworld", result);
@@ -108,7 +109,9 @@ public class FormResponderTest {
     public void testRespond() throws IOException {
         Request request = new Request();
         SocketInterface socket = new MockSocket();
-        socket.setInputStream("first_name=andrew");
+        String testContent = "first_name=andrew";
+        socket.setInputStream(testContent);
+        request.contentLength = testContent.length();
         request.socket = socket;
         Response response = builder.respond(request);
         String result = convertStreamToString(response.inputStream);
@@ -120,6 +123,7 @@ public class FormResponderTest {
         Request request = new Request();
         SocketInterface socket = new MockSocket();
         socket.setInputStream(null);
+        request.contentLength = 2;
         request.socket = socket;
         String result = builder.getFormBody(request);
         assertEquals("", result);

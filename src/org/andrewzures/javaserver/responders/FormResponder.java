@@ -1,6 +1,5 @@
 package org.andrewzures.javaserver.responders;
 
-import org.andrewzures.javaserver.PostParser;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.response.Response;
 import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
