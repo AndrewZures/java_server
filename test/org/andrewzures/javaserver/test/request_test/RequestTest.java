@@ -1,12 +1,11 @@
 package org.andrewzures.javaserver.test.request_test;
 
 import org.andrewzures.javaserver.request.Request;
-import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
 import org.andrewzures.javaserver.test.socket_test.MockSocket;
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertNotNull;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class RequestTest {
 
@@ -34,6 +33,13 @@ public class RequestTest {
         assertEquals("HTTP/1.1", request.getHttpType());
         assertEquals(101, request.getContentLength());
         assertEquals("test request body", request.getBody());
+    }
+
+    @Test
+    public void testSocketGetterSetter(){
+        Request request = new Request();
+        request.setSocket(new MockSocket());
+        assertNotNull(request.getSocket());
     }
 
 }

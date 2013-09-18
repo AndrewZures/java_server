@@ -115,6 +115,16 @@ public class FormResponderTest {
         assertTrue(result.contains("One: andrew"));
     }
 
+    @Test
+    public void testBadSocketInputStream(){
+        Request request = new Request();
+        SocketInterface socket = new MockSocket();
+        socket.setInputStream(null);
+        request.socket = socket;
+        String result = builder.getFormBody(request);
+        assertEquals("", result);
+    }
+
 
     @Test
     public void testConvertStreamToStringIOE(){

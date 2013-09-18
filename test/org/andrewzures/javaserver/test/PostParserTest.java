@@ -28,6 +28,16 @@ public class PostParserTest {
     }
 
     @Test
+    public void testBadSocketInputStream() throws Exception {
+        Request request = new Request();
+        SocketInterface socket = new MockSocket();
+        socket.setInputStream(null);
+        request.socket = socket;
+        String formBody = parser.getFormBody(request);
+        assertEquals("", formBody);
+    }
+
+    @Test
     public void testParsePostHash() throws Exception {
         String testString = "name=andrew&day=wednesday";
         HashMap<String, String> resultMap = parser.parsePostHash(testString);

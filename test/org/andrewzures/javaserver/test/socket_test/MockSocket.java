@@ -18,9 +18,14 @@ public class MockSocket implements SocketInterface {
     }
 
     public void setInputStream(String input){
-        this.inputString = input;
-        byte[] testBytes =inputString.getBytes();
-        testInputStream = new ByteArrayInputStream(testBytes);
+        if(input == null){
+            this.inputString = null;
+            this.testInputStream = null;
+        } else {
+            this.inputString = input;
+            byte[] testBytes =inputString.getBytes();
+            testInputStream = new ByteArrayInputStream(testBytes);
+        }
     }
 
     public String getOutputStreamString(){
