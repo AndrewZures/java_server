@@ -1,23 +1,23 @@
 package org.andrewzures.javaserver.request;
 
-import org.andrewzures.javaserver.InputReader;
 import org.andrewzures.javaserver.PostParser;
+import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
 
 import java.io.IOException;
 
 public class RequestBuilder {
-    InputReader inputReader;
     PostParser parser;
     private String startingPath;
+    private SocketInterface socket;
     private final static int METHOD = 0;
     private final static int PATH = 1;
     private final static int HTTPTYPE = 2;
     private final static int MINHEADERLENGTH = 2;
 
-    public RequestBuilder(String startingPath, InputReader inputReader, PostParser parser) throws IOException {
-        this.inputReader = inputReader;
+    public RequestBuilder(String startingPath, SocketInterface socket, PostParser parser) throws IOException {
         this.startingPath = startingPath;
         this.parser = parser;
+        this.socket = socket;
     }
 
     public Request buildRequest(){
@@ -32,9 +32,9 @@ public class RequestBuilder {
             request.relativePath = headerArray[PATH];
             request.fullPath = startingPath+request.relativePath;
             request.httpType = headerArray[HTTPTYPE];
+            request.socket = this.socket;
             if(requestHasContent(headerArray)){
                 request.contentLength = getContentLength(headerArray);
-                request.inputReader = this.inputReader;
             }
         }
         else return null;
@@ -68,7 +68,7 @@ public class RequestBuilder {
     public String[] readHeader() {
         String header = "";
         while(true){
-            int nextChar = inputReader.readNextChar();
+            int nextChar = this.readNextChar();
             if(nextChar == -1) break;
             header += (char) nextChar;
             if(header.contains("\r\n\r\n"))
@@ -79,7 +79,13 @@ public class RequestBuilder {
         return header.split(" ");
     }
 
-
+    public int readNextChar() {
+        try {
+            return socket.getInputStream().read();
+        } catch (IOException ioe) {
+            return -1;
+        }
+    }
 
     public boolean hasHeaderBreak(String word){
         return word.contains("\r\n\r\n");

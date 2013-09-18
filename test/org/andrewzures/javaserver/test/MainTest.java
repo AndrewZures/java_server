@@ -3,14 +3,12 @@ package org.andrewzures.javaserver.test;
 import org.andrewzures.javaserver.test.socket_test.ClientSocket;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.matchers.JUnitMatchers;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
 import static junit.framework.Assert.assertTrue;
-import static org.junit.Assert.assertThat;
 
 public class MainTest {
 

@@ -1,6 +1,5 @@
 package org.andrewzures.javaserver.test;
 
-import org.andrewzures.javaserver.InputReader;
 import org.andrewzures.javaserver.PostParser;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
@@ -23,8 +22,7 @@ public class PostParserTest {
         Request request = new Request();
         SocketInterface socket = new MockSocket();
         socket.setInputStream("name=andrew&day=wednesday");
-        InputReader reader = new InputReader(socket);
-        request.inputReader = reader;
+        request.socket = socket;
         String formBody = parser.getFormBody(request);
         assertEquals("name=andrew&day=wednesday", formBody);
     }

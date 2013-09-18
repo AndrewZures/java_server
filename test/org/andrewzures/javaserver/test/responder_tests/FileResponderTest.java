@@ -2,13 +2,11 @@ package org.andrewzures.javaserver.test.responder_tests;
 
 import org.andrewzures.javaserver.Main;
 import org.andrewzures.javaserver.request.Request;
-import org.andrewzures.javaserver.request.RequestBuilder;
 import org.andrewzures.javaserver.responders.FileResponder;
 import org.andrewzures.javaserver.response.Response;
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
+
+import static org.junit.Assert.*;
 
 public class FileResponderTest {
     FileResponder fileResponder;

@@ -1,6 +1,7 @@
 package org.andrewzures.javaserver.test.response_test;
 
 import org.andrewzures.javaserver.Main;
+import org.andrewzures.javaserver.PostParser;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.responders.*;
 import org.andrewzures.javaserver.response.Response;
@@ -9,7 +10,6 @@ import org.junit.Test;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
@@ -22,7 +22,7 @@ public class ResponseBuilderTest {
         builder.addRoute("get", "/hello", new DefaultInternalResponder("org/andrewzures/javaserver/resources/welcome.html"));
         builder.addRoute("get", "/time", new TimerResponder("org/andrewzures/javaserver/resources/timerResponse.html"));
         builder.addRoute("get", "/form", new DefaultInternalResponder("org/andrewzures/javaserver/resources/form.html"));
-        builder.addRoute("post", "/form", new FormResponder("org/andrewzures/javaserver/resources/formResponse.html"));
+        builder.addRoute("post", "/form", new FormResponder("org/andrewzures/javaserver/resources/formResponse.html", new PostParser()));
     }
 
 

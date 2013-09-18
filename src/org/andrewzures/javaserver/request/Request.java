@@ -1,7 +1,6 @@
 package org.andrewzures.javaserver.request;
 
-import org.andrewzures.javaserver.InputReader;
-import org.andrewzures.javaserver.file_reader.FileReaderInterface;
+import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
 
 public class Request {
     public String getMethod() {
@@ -44,22 +43,6 @@ public class Request {
         this.contentLength = contentLength;
     }
 
-    public InputReader getInputReader() {
-        return inputReader;
-    }
-
-    public void setInputReader(InputReader inputReader) {
-        this.inputReader = inputReader;
-    }
-
-    public FileReaderInterface getFileReader() {
-        return fileReader;
-    }
-
-    public void setFileReader(FileReaderInterface fileReader) {
-        this.fileReader = fileReader;
-    }
-
     public String getBody() {
         return body;
     }
@@ -68,12 +51,19 @@ public class Request {
         this.body = body;
     }
 
+    public void setSocket(SocketInterface socket){
+        this.socket = socket;
+    }
+
+    public SocketInterface getSocket(){
+        return this.socket;
+    }
+
     public String method;
     public String relativePath;
     public String fullPath;
     public String httpType;
     public int contentLength;
-    public InputReader inputReader = null;
-    public FileReaderInterface fileReader = null;
+    public SocketInterface socket;
     public String body;
 }

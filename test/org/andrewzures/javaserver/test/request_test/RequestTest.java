@@ -1,6 +1,5 @@
 package org.andrewzures.javaserver.test.request_test;
 
-import org.andrewzures.javaserver.InputReader;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
 import org.andrewzures.javaserver.test.socket_test.MockSocket;
@@ -36,14 +35,5 @@ public class RequestTest {
         assertEquals(101, request.getContentLength());
         assertEquals("test request body", request.getBody());
     }
-
-    @Test
-    public void testGetandSetInputReader(){
-        Request request = new Request();
-        SocketInterface socket = new MockSocket();
-        request.setInputReader(new InputReader(socket));
-        assertNotNull(request.getInputReader());
-    }
-
 
 }

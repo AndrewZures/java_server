@@ -1,6 +1,5 @@
 package org.andrewzures.javaserver.server_and_sockets;
 
-import org.andrewzures.javaserver.InputReader;
 import org.andrewzures.javaserver.Logger;
 import org.andrewzures.javaserver.OutputBuilder;
 import org.andrewzures.javaserver.PostParser;
@@ -18,19 +17,17 @@ public class RequestThread extends Thread {
     RequestBuilder requestBuilder;
     ResponseBuilderInterface responseBuilder;
     OutputBuilder sender;
-    InputReader inputReader;
     String startingPath;
     Logger logger;
 
     public RequestThread(SocketInterface socket, Server server, String startingPath, ResponseBuilderInterface responseBuilder, PostParser parser) {
         this.socket = socket;
         this.server = server;
-        this.inputReader = new InputReader(socket);
         this.logger = new Logger();
         this.responseBuilder = responseBuilder;
         this.startingPath = startingPath;
         try{
-            this.requestBuilder = new RequestBuilder(startingPath, inputReader, parser);
+            this.requestBuilder = new RequestBuilder(startingPath, socket, parser);
             this.sender = new OutputBuilder(this.socket);
         } catch(IOException ioe){}
     }

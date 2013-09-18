@@ -1,15 +1,19 @@
 package org.andrewzures.javaserver;
 
 import org.andrewzures.javaserver.request.Request;
+import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
 
+import java.io.IOException;
 import java.util.HashMap;
 
 public class PostParser {
 
     public String getFormBody(Request request) {
         String result = "";
-        while (request.inputReader.charIsAvailable()) {
-            result += (char) request.inputReader.readNextChar();
+        while(true){
+            int nextChar = this.readNextChar(request.socket);
+            if(nextChar == -1) break;
+            result += (char) nextChar;
         }
         return result;
     }
@@ -29,5 +33,13 @@ public class PostParser {
 
     public String[] getKeyValuePairs(String postHash) {
         return postHash.split("&");
+    }
+
+    public int readNextChar(SocketInterface socket) {
+        try {
+            return socket.getInputStream().read();
+        } catch (IOException ioe) {
+            return -1;
+        }
     }
 }

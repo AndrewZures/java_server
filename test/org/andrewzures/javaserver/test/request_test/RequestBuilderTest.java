@@ -1,6 +1,5 @@
 package org.andrewzures.javaserver.test.request_test;
 
-import org.andrewzures.javaserver.InputReader;
 import org.andrewzures.javaserver.PostParser;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.request.RequestBuilder;
@@ -21,15 +20,13 @@ import static org.junit.Assert.assertTrue;
 public class RequestBuilderTest {
 
     RequestBuilder requestBuilder;
-    InputReader reader;
     SocketInterface socket;
     PostParser parser;
 
     public RequestBuilderTest() throws Exception {
         socket = new MockSocket();
-        reader = new InputReader(socket);
         parser = new PostParser();
-        requestBuilder = new RequestBuilder(".", reader, parser);
+        requestBuilder = new RequestBuilder(".", socket, parser);
     }
 
     @Before
@@ -109,14 +106,7 @@ public class RequestBuilderTest {
         headerArray[3] = "Content-Length:";
         headerArray[4] = "44";
         Request request = requestBuilder.populateRequestMessage(headerArray);
-        assertTrue(request.inputReader instanceof InputReader);
-    }
-
-    @Test
-    public void testPopulateResponseObject4(){
-        String[] headerArray = getHeaderStringArray();
-        Request request = requestBuilder.populateRequestMessage(headerArray);
-        assertEquals(null, request.inputReader);
+        assertTrue(request.socket instanceof SocketInterface);
     }
 
     @Test

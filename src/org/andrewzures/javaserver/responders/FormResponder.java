@@ -1,7 +1,9 @@
 package org.andrewzures.javaserver.responders;
 
+import org.andrewzures.javaserver.PostParser;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.response.Response;
+import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -11,7 +13,7 @@ public class FormResponder implements ResponderInterface {
     String[] list = new String[3];
 
 
-    public FormResponder(String path){
+    public FormResponder(String path, PostParser parser){
         this.path = path;
         list[0] = "<%first_param%>";
         list[1] = "<%second_param%>";
@@ -53,8 +55,10 @@ public class FormResponder implements ResponderInterface {
 
     public String getFormBody(Request request){
         String result = "";
-        while(request.inputReader.charIsAvailable()){
-           result += (char) request.inputReader.readNextChar();
+        while(true){
+            int nextChar = this.readNextChar(request.socket);
+            if(nextChar == -1) break;
+           result += (char) nextChar;
         }
         return result;
     }
@@ -89,6 +93,15 @@ public class FormResponder implements ResponderInterface {
             return content.toString();
         } catch(IOException ioe){
             return null;
+        }
+    }
+
+    public int readNextChar(SocketInterface socket) {
+        if(socket == null) return -1;
+        try {
+            return socket.getInputStream().read();
+        } catch (IOException ioe) {
+            return -1;
         }
     }
 }
