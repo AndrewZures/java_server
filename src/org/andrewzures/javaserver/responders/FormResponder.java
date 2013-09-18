@@ -55,11 +55,11 @@ public class FormResponder implements ResponderInterface {
     public String getFormBody(Request request){
         String result = "";
         int count = 0;
-        while(true && count < request.contentLength){
+        while(count < request.contentLength){
             int nextChar = this.readNextChar(request.socket);
             if(nextChar == -1) break;
-           result += (char) nextChar;
-           count++;
+            result += (char) nextChar;
+            count++;
         }
         return result;
     }

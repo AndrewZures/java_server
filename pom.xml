@@ -3,7 +3,7 @@
   <groupId>org.clojars.andrewzures</groupId>
   <artifactId>java-server</artifactId>
   <packaging>jar</packaging>
-  <version>0.2.0-SNAPSHOT</version>
+  <version>0.2.1-SNAPSHOT</version>
   <name>java-server</name>
   <description>FIXME: write description</description>
   <url>http://example.com/FIXME</url>
@@ -16,7 +16,7 @@
   <scm>
     <connection>scm:git:git://github.com/AndrewZures/java_server.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/AndrewZures/java_server.git</developerConnection>
-    <tag>bb39ff0b6acd32b38c4ce33584179654e2b02a70
+    <tag>a4cc76089593d8f224efc8b95fc9ad37a021de58
 </tag>
     <url>https://github.com/AndrewZures/java_server</url>
   </scm>

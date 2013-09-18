@@ -10,10 +10,12 @@ public class PostParser {
 
     public String getFormBody(Request request) {
         String result = "";
-        while(true){
+        int count = 0;
+        while(count < request.contentLength){
             int nextChar = this.readNextChar(request.socket);
             if(nextChar == -1) break;
             result += (char) nextChar;
+            count++;
         }
         return result;
     }

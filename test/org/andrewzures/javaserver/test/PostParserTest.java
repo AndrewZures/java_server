@@ -21,7 +21,9 @@ public class PostParserTest {
     public void testGetFormBody() throws Exception {
         Request request = new Request();
         SocketInterface socket = new MockSocket();
-        socket.setInputStream("name=andrew&day=wednesday");
+        String testContent = "name=andrew&day=wednesday";
+        socket.setInputStream(testContent);
+        request.contentLength = testContent.length();
         request.socket = socket;
         String formBody = parser.getFormBody(request);
         assertEquals("name=andrew&day=wednesday", formBody);
@@ -32,6 +34,7 @@ public class PostParserTest {
         Request request = new Request();
         SocketInterface socket = new MockSocket();
         socket.setInputStream(null);
+        request.contentLength = 2;
         request.socket = socket;
         String formBody = parser.getFormBody(request);
         assertEquals("", formBody);
