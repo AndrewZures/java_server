@@ -20,7 +20,7 @@ public class FormResponderTest {
     FormResponder builder;
 
     public FormResponderTest(){
-        builder = new FormResponder("org/andrewzures/javaserver/resources/formResponse.html", new PostParser());
+        builder = new FormResponder("org/andrewzures/javaserver/resources/formResponse.html");
     }
 
     @Test

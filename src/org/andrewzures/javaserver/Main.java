@@ -18,7 +18,7 @@ public class Main {
         server.addRoute("get", "/hello", new DefaultInternalResponder("org/andrewzures/javaserver/resources/welcome.html"));
         server.addRoute("get", "/time", new TimerResponder("org/andrewzures/javaserver/resources/timerResponse.html"));
         server.addRoute("get", "/form", new DefaultInternalResponder("org/andrewzures/javaserver/resources/form.html"));
-        server.addRoute("post", "/form", new FormResponder("org/andrewzures/javaserver/resources/formResponse.html", new PostParser()));
+        server.addRoute("post", "/form", new FormResponder("org/andrewzures/javaserver/resources/formResponse.html"));
         server.go();
     }
 

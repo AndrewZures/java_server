@@ -22,7 +22,7 @@ public class ResponseBuilderTest {
         builder.addRoute("get", "/hello", new DefaultInternalResponder("org/andrewzures/javaserver/resources/welcome.html"));
         builder.addRoute("get", "/time", new TimerResponder("org/andrewzures/javaserver/resources/timerResponse.html"));
         builder.addRoute("get", "/form", new DefaultInternalResponder("org/andrewzures/javaserver/resources/form.html"));
-        builder.addRoute("post", "/form", new FormResponder("org/andrewzures/javaserver/resources/formResponse.html", new PostParser()));
+        builder.addRoute("post", "/form", new FormResponder("org/andrewzures/javaserver/resources/formResponse.html"));
     }
 
 

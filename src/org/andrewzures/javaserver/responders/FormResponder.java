@@ -13,7 +13,7 @@ public class FormResponder implements ResponderInterface {
     String[] list = new String[3];
 
 
-    public FormResponder(String path, PostParser parser){
+    public FormResponder(String path){
         this.path = path;
         list[0] = "<%first_param%>";
         list[1] = "<%second_param%>";
@@ -55,10 +55,12 @@ public class FormResponder implements ResponderInterface {
 
     public String getFormBody(Request request){
         String result = "";
-        while(true){
+        int count = 0;
+        while(true && count < request.contentLength){
             int nextChar = this.readNextChar(request.socket);
             if(nextChar == -1) break;
            result += (char) nextChar;
+           count++;
         }
         return result;
     }
@@ -97,7 +99,6 @@ public class FormResponder implements ResponderInterface {
     }
 
     public int readNextChar(SocketInterface socket) {
-        if(socket == null) return -1;
         try {
             return socket.getInputStream().read();
         } catch (IOException ioe) {
