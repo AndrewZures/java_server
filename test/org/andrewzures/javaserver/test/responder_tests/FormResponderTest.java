@@ -14,6 +14,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertThat;
 
 public class FormResponderTest {
@@ -21,7 +22,7 @@ public class FormResponderTest {
     FormResponder builder;
 
     public FormResponderTest(){
-        builder = new FormResponder("formResponse.html");
+        builder = new FormResponder("org/andrewzures/javaserver/resources/formResponse.html");
     }
 
     @Test
@@ -113,7 +114,7 @@ public class FormResponderTest {
         request.inputReader = new InputReader(socket);
         Response response = builder.respond(request);
         String result = convertStreamToString(response.inputStream);
-        assertThat(result, JUnitMatchers.containsString("One: andrew"));
+        assertTrue(result.contains("One: andrew"));
     }
 
 

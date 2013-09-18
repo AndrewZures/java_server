@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>java-server</groupId>
+  <groupId>org.clojars.andrewzures</groupId>
   <artifactId>java-server</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.5-SNAPSHOT</version>
+  <version>0.2.0-SNAPSHOT</version>
   <name>java-server</name>
   <description>FIXME: write description</description>
   <url>http://example.com/FIXME</url>
@@ -14,11 +14,11 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git://github.com/AndrewZures/Clean_Java_Server.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/AndrewZures/Clean_Java_Server.git</developerConnection>
-    <tag>f0c7534b8dac2f3312731245c1a1ad7ca138a58f
+    <connection>scm:git:git://github.com/AndrewZures/java_server.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/AndrewZures/java_server.git</developerConnection>
+    <tag>bb39ff0b6acd32b38c4ce33584179654e2b02a70
 </tag>
-    <url>https://github.com/AndrewZures/Clean_Java_Server</url>
+    <url>https://github.com/AndrewZures/java_server</url>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>

@@ -2,7 +2,8 @@ package org.andrewzures.javaserver.test;
 
 import org.andrewzures.javaserver.Logger;
 import org.andrewzures.javaserver.PostParser;
-import org.andrewzures.javaserver.file_reader.FileReaderInterface;
+import org.andrewzures.javaserver.responders.DirectoryResponder;
+import org.andrewzures.javaserver.responders.File404Responder;
 import org.andrewzures.javaserver.response.ResponseBuilder;
 import org.andrewzures.javaserver.response.ResponseBuilderInterface;
 import org.andrewzures.javaserver.server_and_sockets.RequestThread;
@@ -42,10 +43,12 @@ public class RequestThreadTest {
         Logger logger = new Logger();
         PostParser parser = new PostParser();
         Server server = new Server(8189, startingPath, mockServerSocket, logger);
-        FileReaderInterface reader = new MockFileReader();
-        ResponseBuilderInterface builder = new ResponseBuilder(reader);
+        server.add404Responder(new File404Responder());
+        server.addDirectoryResponder(new DirectoryResponder());
 
-        RequestThread handler = new RequestThread(socket, server, startingPath, builder, reader, parser);
+        ResponseBuilderInterface builder = new ResponseBuilder();
+
+        RequestThread handler = new RequestThread(socket, server, startingPath, builder, parser);
         assertTrue(handler instanceof RequestThread);
     }
 
@@ -58,12 +61,12 @@ public class RequestThreadTest {
         ServerSocketInterface mockServerSocket = new MockServerSocket();
         Logger logger = new Logger();
         Server server = new Server(8189, startingPath, mockServerSocket, logger);
-        FileReaderInterface reader = new MockFileReader();
-        ResponseBuilderInterface builder = new ResponseBuilder(reader);
+        ResponseBuilderInterface builder = new ResponseBuilder();
 
-        RequestThread handler = new RequestThread(socket, server, startingPath, builder, reader, parser);
+        RequestThread handler = new RequestThread(socket, server, startingPath, builder,  parser);
         handler.run();
         assertEquals(true, socket.isClosed());
     }
+
 
 }

@@ -16,7 +16,7 @@ public class TimerResponderTest {
    TimerResponder builder;
 
     public TimerResponderTest(){
-        builder = new TimerResponder("timerResponse.html");
+        builder = new TimerResponder("org/andrewzures/javaserver/resources/timerResponse.html");
     }
 
     @Test

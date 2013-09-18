@@ -1,6 +1,5 @@
 package org.andrewzures.javaserver.test.response_test;
 
-import org.andrewzures.javaserver.file_reader.FileReader;
 import org.andrewzures.javaserver.response.Response;
 import org.junit.Test;
 
@@ -101,14 +100,6 @@ public class ResponseTest {
         Response response = new Response();
         response.setInputStream(stream);
         assertNotNull(response.getInputStream());
-    }
-
-    @Test
-    public void testGetandSetFileReader() throws Exception {
-        FileReader reader = new FileReader();
-        Response response = new Response();
-        response.setFileReader(reader);
-        assertNotNull(response.getFileReader());
     }
 
 }

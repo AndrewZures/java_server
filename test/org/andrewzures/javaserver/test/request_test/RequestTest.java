@@ -1,7 +1,6 @@
 package org.andrewzures.javaserver.test.request_test;
 
 import org.andrewzures.javaserver.InputReader;
-import org.andrewzures.javaserver.file_reader.FileReader;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
 import org.andrewzures.javaserver.test.socket_test.MockSocket;
@@ -46,11 +45,5 @@ public class RequestTest {
         assertNotNull(request.getInputReader());
     }
 
-    @Test
-    public void testGetandSetFileReader(){
-        Request request = new Request();
-        request.setFileReader(new FileReader());
-        assertNotNull(request.getFileReader());
-    }
 
 }

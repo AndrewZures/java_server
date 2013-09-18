@@ -3,11 +3,11 @@ package org.andrewzures.javaserver.responders;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.response.Response;
 
-public class file404Responder implements ResponderInterface {
+public class File404Responder implements ResponderInterface {
 
     public Response respond(Request request){
         Response response = new Response();
-        response.inputStream = this.getClass().getResourceAsStream("org/andrewzures/javaserver/resources/404.html");
+        response.inputStream = this.getClass().getClassLoader().getResourceAsStream("org/andrewzures/javaserver/resources/404.html");
         response = populateHeaderInformation(response);
         return response;
     }

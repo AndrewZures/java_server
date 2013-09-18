@@ -2,7 +2,6 @@ package org.andrewzures.javaserver.test.request_test;
 
 import org.andrewzures.javaserver.InputReader;
 import org.andrewzures.javaserver.PostParser;
-import org.andrewzures.javaserver.file_reader.FileReader;
 import org.andrewzures.javaserver.request.Request;
 import org.andrewzures.javaserver.request.RequestBuilder;
 import org.andrewzures.javaserver.server_and_sockets.SocketInterface;
@@ -30,7 +29,7 @@ public class RequestBuilderTest {
         socket = new MockSocket();
         reader = new InputReader(socket);
         parser = new PostParser();
-        requestBuilder = new RequestBuilder(".", reader, new FileReader(), parser);
+        requestBuilder = new RequestBuilder(".", reader, parser);
     }
 
     @Before

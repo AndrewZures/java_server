@@ -2,13 +2,11 @@ package org.andrewzures.javaserver.request;
 
 import org.andrewzures.javaserver.InputReader;
 import org.andrewzures.javaserver.PostParser;
-import org.andrewzures.javaserver.file_reader.FileReaderInterface;
 
 import java.io.IOException;
 
 public class RequestBuilder {
     InputReader inputReader;
-    FileReaderInterface fileReader;
     PostParser parser;
     private String startingPath;
     private final static int METHOD = 0;
@@ -16,9 +14,8 @@ public class RequestBuilder {
     private final static int HTTPTYPE = 2;
     private final static int MINHEADERLENGTH = 2;
 
-    public RequestBuilder(String startingPath, InputReader inputReader, FileReaderInterface fileReader, PostParser parser) throws IOException {
+    public RequestBuilder(String startingPath, InputReader inputReader, PostParser parser) throws IOException {
         this.inputReader = inputReader;
-        this.fileReader = fileReader;
         this.startingPath = startingPath;
         this.parser = parser;
     }
@@ -35,7 +32,6 @@ public class RequestBuilder {
             request.relativePath = headerArray[PATH];
             request.fullPath = startingPath+request.relativePath;
             request.httpType = headerArray[HTTPTYPE];
-            request.fileReader = this.fileReader;
             if(requestHasContent(headerArray)){
                 request.contentLength = getContentLength(headerArray);
                 request.inputReader = this.inputReader;
